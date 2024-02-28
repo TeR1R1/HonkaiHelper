@@ -1,3 +1,13 @@
-import win32gui
+import random
+import pyautogui
+import re
+import numpy as np
+from models.utils.gameOCR import *
+from airtest.core.api import *
 
-print(win32gui.FindWindow(None, 'QQ'))
+honkai3 = getTitleNumber('崩坏3')
+setActive(honkai3)
+
+
+    
+        

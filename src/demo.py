@@ -4,7 +4,7 @@ import pyautogui
 import time
 import sys
 import numpy as np
-import utils.gameOCR as aocr
+import models.utils.gameOCR as aocr
 
 from paddleocr import PaddleOCR, draw_ocr
 from PIL import ImageGrab, ImageShow, Image
